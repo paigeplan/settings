@@ -23,3 +23,7 @@ syntax on
 
 colorscheme desert 
 
+### dropdown term
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/F4 -n -t string -s "xfce4-terminal --drop-down"
+
+screenfetch
